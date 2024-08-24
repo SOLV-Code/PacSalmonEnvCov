@@ -6,7 +6,7 @@ Population models for Pacific salmon (*Oncorhynchus* spp.) increasingly consider
 
 However, until recently there has been no centralized public source of directly usable environmental covariate series to support routine exploration and testing of hypotheses. To address this gap, we are building an open-source data system using existing GitHub functionality. 
 
-**Pacific Salmon Environmental Covariates (PSEC)** focuses on building a data set and comprehensive context through collaborative development in a human-centered framework that minimizes technical obstacles for contributors. The open-source collaborative approach has great potential, but *PSEC* has also encountered considerable challenges in the initial development phase.   
+[**Pacific Salmon Environmental Covariates (PSEC)**](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon) focuses on building a data set and comprehensive context through collaborative development in a human-centered framework that minimizes technical obstacles for contributors. The open-source collaborative approach has great potential, but *PSEC* has also encountered considerable challenges in the initial development phase.   
 
 ## Guiding Principles
 
@@ -26,18 +26,13 @@ Text
 Text
 
 
-## Details
-
-* [Main Page](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon)
-
-* [Summary of current coverage](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES/Current_Coverage)
-* [Comparison of data sets](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES/ScopeOfAnalyses)
-
 
 
 ## Highlights
 
 Text
 
+* [Summary of current coverage](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES/Current_Coverage)
+* [Comparison of data sets](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES/ScopeOfAnalyses)
 
 
