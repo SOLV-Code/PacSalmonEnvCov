@@ -6,33 +6,21 @@ Population models for Pacific salmon (*Oncorhynchus* spp.) increasingly consider
 
 Despite this growing amount of data available online, there is no centralized public source of directly usable environmental covariate series to support routine exploration and testing of hypotheses. To address this gap, we are building an open-source data system using existing GitHub functionality. 
 
-[**Pacific Salmon Environmental Covariates (PSEC)**](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon) focuses on building a data set and comprehensive context through collaborative development in a human-centered framework that minimizes technical obstacles for contributors. The open-source collaborative approach has great potential, but *PSEC* has also encountered considerable challenges in the initial development phase.   
-
 ## Guiding Principles
 
+[**Pacific Salmon Environmental Covariates (PSEC)**](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon) focuses on building a data set and comprehensive context through collaborative development in a human-centered framework that minimizes technical obstacles for contributors. An open-source collaborative approach for building a data resource has great potential, but is also unpredictable and open-ended. Scope, structure, and contents of this resource will evolve through active contributions and debate.
 
-### Make it easy access to the data
+Three guiding principles have shaped the evolution of the repository so far
 
-Text
-
-### Make it easy to contribute data and context
-
-
-Text
+* *Make it easy access to the data*: [Individual source data](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/DATA) and the [merged file with all covariates](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/OUTPUT) are stored as *csv* files which work seamlessly across operating systems and software applications. Background information and metadata are documented in the *README.md* for each data set.  Data processing and merging is done with [R code](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/CODE).
+* *Make it easy to contribute data and context information*: TEXT revision tracking
+* *Foster discussion of the data*: Text
 
 
-### Foster discussion of the data
+## Links
 
-Text
-
-
-
-
-## Highlights
-
-Text
-
+* [Repository main page](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main)
 * [Summary of current coverage](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES/Current_Coverage)
 * [Comparison of data sets](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES/ScopeOfAnalyses)
-
+* [Data sets and descriptions](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/DATA)
 
