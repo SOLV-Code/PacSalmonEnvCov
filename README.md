@@ -41,11 +41,11 @@ The [DFO Fraser Sockeye Forecast data set](https://github.com/SOLV-Code/Open-Sou
 
 *Test1*
 
-<img src="https://github.com/SOLV-Code/PacSalmonEnvCov/blob/main/assets/images/Dags&Ducks&3dPrints.PNG"
+<img src="https://github.com/SOLV-Code/PacSalmonEnvCov/blob/main/docs/assets/images/Dags&Ducks&3dPrints.PNG"
 	width="400">
 
 
 *Test2*
 
-![image test](/PacSalmonEnvCov/assets/images/Dags&Ducks&3dPrints.PNG)
+![image test](/PacSalmonEnvCov/docs/assets/images/Dags&Ducks&3dPrints.PNG)
 
