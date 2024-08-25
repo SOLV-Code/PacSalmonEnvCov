@@ -10,17 +10,49 @@ Despite this growing amount of data available online, there is no centralized pu
 
 [**Pacific Salmon Environmental Covariates (PSEC)**](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon) focuses on building a data set and comprehensive context through collaborative development in a human-centered framework that minimizes technical obstacles for contributors. An open-source collaborative approach for building a data resource has great potential, but is also unpredictable and open-ended. Scope, structure, and contents of this resource will evolve through active contributions and debate.
 
-Three guiding principles have shaped the evolution of the repository so far
+Three guiding principles have shaped the evolution of the repository so far:
 
-* *Make it easy access to the data*: [Individual source data](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/DATA) and the [merged file with all covariates](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/OUTPUT) are stored as *csv* files which work seamlessly across operating systems and software applications. Background information and metadata are documented in the *README.md* for each data set.  Data processing and merging is done with [R code](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/CODE).
-* *Make it easy to contribute data and context information*: TEXT revision tracking
-* *Foster discussion of the data*: Text
+* Make it easy access to the data
+* Make it easy to contribute data and context information
+* Foster discussion of the data
+
+### Make it easy to access the data
+
+[Individual source data](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/DATA) and the [merged file with all covariates](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/OUTPUT) are stored as *csv* files which work seamlessly across operating systems and software applications. Background information and metadata are documented in the *README.md* for each data set.  Data processing and merging is done with [R code](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/CODE).
+
+### Make it easy to contribute data and context information
+
+The initial entry for a new data set can be just two basic files: 
+
+* a csv file with covariate time series and some details in the header 
+* a brief README.md file with some context for the data file
+
+Over time, the entry can then grow to include R code that directly downloads raw data and generates the covariate. In response to questions, the README file can build more detailed information about the data and how it is being used. 
+
+The [DFO Fraser Sockeye Forecast data set](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/DATA/DFO_FraserSockeyeForecast) is a good example of a well-developed data entry. 
+
+### Foster discussion of the data
+
+*PSEC* uses the collaoration features of GitHub to foster discussion in two ways:
+
+* [Discussion threads](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/issues) for specific questions or comments
+* [Short notes](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES) that can be edited directly in your browser (Just click the pencil icon at the top of the note)
+
+Notes in progress:
+
+* [Summary of current coverage](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES/Current_Coverage) has an inventory of environmental covariates extracted from the data sets so far.
+
+* [Comparison of PDO covariates](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES/PDO_Comparison) takes a closer look at the alternative versions used in different applications.
+
+* [Scope of analyses](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES/ScopeOfAnalyses) compares and contrasts the data sets and how they were used.
+
+* [Trends vs. Anomalies](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES/TrendsVsAnomalies) looks at  how anomalies are calculated for common large-scale environmental covariates to remove underlying trends, and whether that is the appropriate data treatment for salmon models.
+
+* [Worked Examples of DAGs](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES/DAGs_WorkedExamples) has some step-by-step examples of building diagrams for causal inference.
 
 
-## Links
 
-* [Repository main page](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main)
-* [Summary of current coverage](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES/Current_Coverage)
-* [Comparison of data sets](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES/ScopeOfAnalyses)
-* [Data sets and descriptions](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/DATA)
+
+
+
 
