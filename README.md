@@ -33,26 +33,19 @@ The [DFO Fraser Sockeye Forecast data set](https://github.com/SOLV-Code/Open-Sou
 
 ### Foster discussion of the data
 
-*PSEC* uses the collaoration features of GitHub to foster discussion in two ways:
+*PSEC* uses the collaboration features of GitHub to foster discussion in two ways:
 
 * [Discussion threads](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/issues) for specific questions or comments
 * [Short notes](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES) that can be edited directly in your browser (Just click the pencil icon at the top of the note)
 
-Notes in progress:
 
-* [Summary of current coverage](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES/Current_Coverage) has an inventory of environmental covariates extracted from the data sets so far.
+*Test1*
 
-* [Comparison of PDO covariates](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES/PDO_Comparison) takes a closer look at the alternative versions used in different applications.
-
-* [Scope of analyses](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES/ScopeOfAnalyses) compares and contrasts the data sets and how they were used.
-
-* [Trends vs. Anomalies](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES/TrendsVsAnomalies) looks at  how anomalies are calculated for common large-scale environmental covariates to remove underlying trends, and whether that is the appropriate data treatment for salmon models.
-
-* [Worked Examples of DAGs](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES/DAGs_WorkedExamples) has some step-by-step examples of building diagrams for causal inference.
+<img src="https://github.com/SOLV-Code/PacSalmonEnvCov/blob/main/assets/images/Dags&Ducks&3dPrints.PNG"
+	width="400">
 
 
+*Test2*
 
-
-
-
+![image test](/PacSalmonEnvCov/assets/images/Dags&Ducks&3dPrints.PNG)
 
