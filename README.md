@@ -2,9 +2,11 @@
 
 ## Purpose
 
+Despite the growing amount of environmental data available online, there is no centralized public source of directly usable environmental covariate series to support routine exploration and testing of hypotheses in salmon models. To address this gap, we are building an open-source data system using existing GitHub functionality. 
+
 Population models for Pacific salmon (*Oncorhynchus* spp.) increasingly consider environmental covariates to improve forecasts or develop estimates of management reference points that respond to changing conditions. These analyses generally draw on the same suite of environmental covariates, but with potentially significant differences in the data treatment details. Some of the widely used series are publicly available (e.g. Pacific Decadal Oscillation index), and for some of the common covariates raw source data is published online (e.g., sea surface temperature records from British Columbia lighthouses). Specific data sets used in published analyses are increasingly shared via github repositories or as supplementary files to the papers, but these are not routinely updated with new records.
 
-Despite the growing amount of environenmental data available online, there is no centralized public source of directly usable environmental covariate series to support routine exploration and testing of hypotheses in salmon models. To address this gap, we are building an open-source data system using existing GitHub functionality. 
+
 
 ## Guiding Principles
 
