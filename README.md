@@ -30,24 +30,29 @@ Three guiding principles have shaped the evolution of the repository so far:
 
 ### Make it easy to access the data
 
-[Individual source data](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/DATA) and the [merged file with all covariates](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/OUTPUT) are stored as *csv* files which work seamlessly across operating systems and software applications. Background information and metadata are documented in the *README.md* for each data set.  Data processing and merging is done with [R code](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/CODE).
+Minimize technical barriers! Source files, compiled data set, and data descriptions should be directly available in a basic and universal file format, on a low-bandwidth site. 
+
+*PSEC* stores data in csv files and makes them available through GitHub. See [Software Stack](https://solv-code.github.io/PacSalmonEnvCov/#software-stack) for details.
+
 
 ### Make it easy to contribute data and context information
 
-The initial entry for a new data set can be just two basic files: 
+Allow for scalable effort! Requirements for initial contribution should be minimal, but within a structure that encourages gradual expansion and refinement with distributed workload. 
 
-* a csv file with covariate time series and some details in the header 
-* a brief README.md file with some context for the data file
-
-Over time, the entry can then grow to include R code that directly downloads raw data and generates the covariate. In response to questions, the README file can build more detailed information about the data and how it is being used. 
+The initial entry for a new data set can be just one or two basic files: a brief description text in a *README.md* markdown file and a csv file with the series. See [Software Stack](https://solv-code.github.io/PacSalmonEnvCov/#software-stack) for details. In some cases, only the description file with links to a paper, website, or GitHub repository is added as a start. Over time, the entry can then grow to include R code that directly downloads raw data and generates the covariates. In response to questions, the README file can build more detailed information about the data and how it is being used.  
 
 The [DFO Fraser Sockeye Forecast data set](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/DATA/DFO_FraserSockeyeForecast) is a good example of a well-developed data entry. 
+
+The entry for the [DFO Ocean Science Division Data Products Group](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/DATA/DFO_OceanScienceDiv_DataProd) is an example without any extracted data, just a description. 
+
 
 ### Foster engagement with the data
 
 Environmental factors interact with salmon throughout their entire life cycle, but also interact with each other, creating complex causal pathways that can create serious pitfalls for your analyses. We are exploring tools that help individuals and teams work through these complexities: **Ducks**, **DAGs**, and **Tangible Data**
 
 ![DuckImage](/PacSalmonEnvCov/images/Duck_Image.PNG)
+
+**Rubber Duck Technique**
 
 The [Rubber Duck Technique](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/wiki/Rubber-Duck-Technique) is a problem solving trick used in software development: Try to explain your code problem out loud to the rubber duck, and along the way you can catch flaws in your logic. The underlying idea is to use some device that forces you to convert technical details into simple, natural language, which changes how you think about the problem. The same technique can help us think through the thicket of potential covariates for salmon models.
 
@@ -58,8 +63,12 @@ The [Rubber Duck Technique](https://github.com/SOLV-Code/Open-Source-Env-Cov-Pac
 
 ![DAGImage](/PacSalmonEnvCov/images/DAG_Image.PNG)
 
+
+**DAGs**
+
 [Directed Acyclic Graphs (DAGs)](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/wiki/Causal-Inference) are a graphical tool for thinking about causal relationships and building blueprints for quantitative models. DAGs focus on major pathways and directions of influence, setting aside specific relationships and numeric parameters for subsequent steps in the analysis. Think of DAGs as the bridge between a high-level verbal description and an initial version of the model code. All three stages then need to be refined through many rounds of review, discussion, and testing until the fundamental logic is sound and the code accurately implements that logic.
 
+**Tangible Data*
 
 ![3dPrint_Image](/PacSalmonEnvCov/images/3dPrint_Image.PNG)
 
@@ -71,15 +80,28 @@ Even the most polished plots are still limited to page or screen. Interactive to
 
 *Software stack* refers to all the programs and tools required to make an application work. The *PSEC* data system uses free open-source software and a free online platform. No software installations or logins are required to access the data and other materials. A free GitHub account is required to contribute data, post questions, or edit summary notes.
 
+
+[Individual source data](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/DATA) and the [merged file with all covariates](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/OUTPUT) are stored as *csv* files which work seamlessly across operating systems and software applications. Background information and metadata are documented in the *README.md* for each data set.  Data processing and merging is done with [R code](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/CODE).
+
+
+
 ![Logo_csv](/PacSalmonEnvCov/images/Logo_csv.png)
+
+
 Source data sets and a merged file with all covariates are stored as csv files which work seamlessly across operating systems and software applications. 
 
 ![Logo_Markdown](/PacSalmonEnvCov/images/Logo_Markdown.png)
+
+
 Background information and metadata are documented in a markdown for each data set, which is automatically formatted for display by GitHub.
 
 ![Logo_R](/PacSalmonEnvCov/images/Logo_R.png)
+
+
 Data processing, merging, and exploratory analyses are all done with R code.
 
 ![Logo_Github](/PacSalmonEnvCov/images/Logo_Github.png)
+
+
 Tracking of updates and corrections handled automatically by GitHub. Also use GitHub discussion threads to resolve questions and GitHub Wiki pages for collaborative editing of background information.
 
