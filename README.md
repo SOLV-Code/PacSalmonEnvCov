@@ -10,12 +10,13 @@
 * [Discussion threads for open questions](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/issues)
 * [Wiki pages for background information](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/wiki)
 
+## Context
+
+Population models for Pacific salmon (*Oncorhynchus* spp.) increasingly consider environmental covariates. Some of the widely used covariate series are publicly available (e.g. Pacific Decadal Oscillation index), and for some of them raw source data is published online (e.g., sea surface temperatures at British Columbia lighthouses). Data sets from published analyses are increasingly shared via github repositories or as supplementary files to the papers, but these are not routinely updated with new records.
+
 ## Purpose
 
 Despite the growing amount of environmental data available online, there is no centralized public source of directly usable environmental covariate series to support routine exploration and testing of hypotheses in salmon models. To address this gap, we are building an open-source data system using existing GitHub functionality. 
-
-Population models for Pacific salmon (*Oncorhynchus* spp.) increasingly consider environmental covariates to improve forecasts or develop estimates of management reference points that respond to changing conditions. These analyses generally draw on the same suite of environmental covariates, but with potentially significant differences in the data treatment details. Some of the widely used series are publicly available (e.g. Pacific Decadal Oscillation index), and for some of the common covariates raw source data is published online (e.g., sea surface temperature records from British Columbia lighthouses). Specific data sets used in published analyses are increasingly shared via github repositories or as supplementary files to the papers, but these are not routinely updated with new records.
-
 
 
 ## Guiding Principles
@@ -28,25 +29,25 @@ Three guiding principles have shaped the evolution of the repository so far:
 * Make it easy to contribute data and context information
 * Foster engagement with the data
 
-### Make it easy to access the data
+### Principle 1: Make it easy to access the data
 
 Minimize technical barriers! Source files, compiled data set, and data descriptions should be directly available in a basic and universal file format, on a low-bandwidth site. 
 
 *PSEC* stores data in csv files and makes them available through GitHub. See [Software Stack](https://solv-code.github.io/PacSalmonEnvCov/#software-stack) for details.
 
 
-### Make it easy to contribute data and context information
+### Principle 2: Make it easy to contribute data and context information
 
 Allow for scalable effort! Requirements for initial contribution should be minimal, but within a structure that encourages gradual expansion and refinement with distributed workload. 
 
-The initial entry for a new data set can be just one or two basic files: a brief description text in a *README.md* markdown file and a csv file with the series. See [Software Stack](https://solv-code.github.io/PacSalmonEnvCov/#software-stack) for details. In some cases, only the description file with links to a paper, website, or GitHub repository is added as a start. Over time, the entry can then grow to include R code that directly downloads raw data and generates the covariates. In response to questions, the README file can build more detailed information about the data and how it is being used.  
+The initial entry for a new data set can be just one or two basic files: a brief description text in a *README.md* markdown file and a csv file with the series. See [Software Stack](https://solv-code.github.io/PacSalmonEnvCov/#software-stack) for details. In some cases, only the description file with some links can added as a start. Over time, the entry can then grow to include more details (data, code, summary of analyses).  
 
 The [DFO Fraser Sockeye Forecast data set](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/DATA/DFO_FraserSockeyeForecast) is a good example of a well-developed data entry. 
 
 The entry for the [DFO Ocean Science Division Data Products Group](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/DATA/DFO_OceanScienceDiv_DataProd) is an example without any extracted data, just a description. 
 
 
-### Foster engagement with the data
+### Principle 3: Foster engagement with the data
 
 Environmental factors interact with salmon throughout their entire life cycle, but also interact with each other, creating complex causal pathways that can create serious pitfalls for your analyses. We are exploring tools that help individuals and teams work through these complexities: **Ducks**, **DAGs**, and **Tangible Data**
 
@@ -68,7 +69,7 @@ The [Rubber Duck Technique](https://github.com/SOLV-Code/Open-Source-Env-Cov-Pac
 
 [Directed Acyclic Graphs (DAGs)](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/wiki/Causal-Inference) are a graphical tool for thinking about causal relationships and building blueprints for quantitative models. DAGs focus on major pathways and directions of influence, setting aside specific relationships and numeric parameters for subsequent steps in the analysis. Think of DAGs as the bridge between a high-level verbal description and an initial version of the model code. All three stages then need to be refined through many rounds of review, discussion, and testing until the fundamental logic is sound and the code accurately implements that logic.
 
-**Tangible Data*
+**Tangible Data**
 
 ![3dPrint_Image](/PacSalmonEnvCov/images/3dPrint_Image.PNG)
 
@@ -87,21 +88,17 @@ Even the most polished plots are still limited to page or screen. Interactive to
 
 ![Logo_csv](/PacSalmonEnvCov/images/Logo_csv.png)
 
-
 Source data sets and a merged file with all covariates are stored as csv files which work seamlessly across operating systems and software applications. 
 
 ![Logo_Markdown](/PacSalmonEnvCov/images/Logo_Markdown.png)
-
 
 Background information and metadata are documented in a markdown for each data set, which is automatically formatted for display by GitHub.
 
 ![Logo_R](/PacSalmonEnvCov/images/Logo_R.png)
 
-
 Data processing, merging, and exploratory analyses are all done with R code.
 
 ![Logo_Github](/PacSalmonEnvCov/images/Logo_Github.png)
-
 
 Tracking of updates and corrections handled automatically by GitHub. Also use GitHub discussion threads to resolve questions and GitHub Wiki pages for collaborative editing of background information.
 
