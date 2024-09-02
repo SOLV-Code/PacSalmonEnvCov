@@ -81,22 +81,17 @@ Even the most polished plots are still limited to page or screen. Interactive to
 
 *Software stack* refers to all the programs and tools required to make an application work. The *PSEC* data system uses free open-source software and a free online platform. No software installations or logins are required to access the data and other materials. A free GitHub account is required to contribute data, post questions, or edit summary notes.
 
-
-[Individual source data](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/DATA) and the [merged file with all covariates](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/OUTPUT) are stored as *csv* files which work seamlessly across operating systems and software applications. Background information and metadata are documented in the *README.md* for each data set.  Data processing and merging is done with [R code](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/CODE).
-
-
-
 ![Logo_csv](/PacSalmonEnvCov/images/Logo_csv.png)
 
-Source data sets and a merged file with all covariates are stored as csv files which work seamlessly across operating systems and software applications. 
+[Individual source data](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/DATA) and the [merged file with all covariates](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/OUTPUT) are stored as *csv* files which work seamlessly across operating systems and software applications. 
 
 ![Logo_Markdown](/PacSalmonEnvCov/images/Logo_Markdown.png)
 
-Background information and metadata are documented in a markdown for each data set, which is automatically formatted for display by GitHub.
+Background information and metadata are documented in the *README.md* for each data set. The README.md files use very basic markdown, which is automatically formatted for display by GitHub.
 
 ![Logo_R](/PacSalmonEnvCov/images/Logo_R.png)
 
-Data processing, merging, and exploratory analyses are all done with R code.
+Data processing, merging, and exploratory analyses are all done with [R code](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/CODE).
 
 ![Logo_Github](/PacSalmonEnvCov/images/Logo_Github.png)
 
