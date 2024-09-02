@@ -60,14 +60,14 @@ The [Rubber Duck Technique](https://github.com/SOLV-Code/Open-Source-Env-Cov-Pac
 *PSEC* uses the collaboration features of GitHub to encourage verbal thinking about environmental covariates in two ways:
 
 * [Discussion threads](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/issues) for specific questions or comments
-* [Short notes](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES) on broader topics that can be edited directly in your browser (Just click the pencil icon at the top of the note)
+* [Short notes](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES) on broader topics that can be edited directly in your browser.
 
 ![DAGImage](/PacSalmonEnvCov/images/DAG_Image.PNG)
 
 
 **DAGs**
 
-[Directed Acyclic Graphs (DAGs)](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/wiki/Causal-Inference) are a graphical tool for thinking about causal relationships and building blueprints for quantitative models. DAGs focus on major pathways and directions of influence, setting aside specific relationships and numeric parameters for subsequent steps in the analysis. Think of DAGs as the bridge between a high-level verbal description and an initial version of the model code. All three stages then need to be refined through many rounds of review, discussion, and testing until the fundamental logic is sound and the code accurately implements that logic.
+[Directed Acyclic Graphs (DAGs)](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/wiki/Causal-Inference) are a graphical tool for thinking about causal relationships and building blueprints for quantitative models. DAGs focus on major pathways and directions of influence, setting aside specific relationships and numeric parameters for subsequent steps in the analysis. Think of DAGs as the bridge between a high-level verbal description and an initial version of the model code. 
 
 **Tangible Data**
 
