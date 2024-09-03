@@ -2,14 +2,6 @@
 
 ![DAGsDucks3DPrints](/PacSalmonEnvCov/images/Dags&Ducks&3dPrints.PNG)
 
-## Quick Links
-
-* [PSEC Repository - Main Page](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon)
-* [Contributed data sets](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/DATA)
-* [Notes](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES)
-* [Discussion threads for open questions](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/issues)
-* [Wiki pages for background information](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/wiki)
-
 ## Context
 
 Population models for Pacific salmon (*Oncorhynchus* spp.) increasingly consider environmental covariates. Some of the widely used covariate series are publicly available (e.g. Pacific Decadal Oscillation index), and for some of them raw source data is published online (e.g., sea surface temperatures at British Columbia lighthouses). Data sets from published analyses are increasingly shared via github repositories or as supplementary files to the papers, but these are not routinely updated with new records.
@@ -18,6 +10,20 @@ Population models for Pacific salmon (*Oncorhynchus* spp.) increasingly consider
 
 Despite the growing amount of environmental data available online, there is no centralized public source of directly usable environmental covariate series to support routine exploration and testing of hypotheses in salmon models. To address this gap, we are building an open-source data system using existing GitHub functionality. 
 
+## Current Status
+
+* 8 data set entries
+* 46 covariate series, covering 20 to 125 years
+* 5 notes (e.g., comparing PDO-based covariates)
+* 22 discussion threads with open questions
+
+## Quick Links
+
+* [PSEC Repository - Main Page](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon)
+* [Contributed data sets](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/DATA)
+* [Notes](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES)
+* [Discussion threads for open questions](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/issues)
+* [Wiki pages for background information](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/wiki)
 
 ## Guiding Principles
 
