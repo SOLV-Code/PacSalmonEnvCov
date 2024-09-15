@@ -24,6 +24,7 @@ Despite the growing amount of environmental data available online, there is no c
 * [Notes](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES)
 * [Discussion threads for open questions](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/issues)
 * [Wiki pages for background information](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/wiki)
+* [Conference posters and presentations](https://drive.google.com/drive/folders/1DjgJcDe70dZeFMcW9qCPYFsEafsClxco?usp=sharing)
 
 ## Guiding Principles
 
