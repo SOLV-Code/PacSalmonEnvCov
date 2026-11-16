@@ -1,6 +1,6 @@
 # Open-Source Data System for *Pacific Salmon Environmental Covariates* (PSEC)
 
-![DAGsDucks3DPrints](/PacSalmonEnvCov/images/Dags&Ducks&3dPrints.PNG)
+![DAGsDucks3DPrints](images/Dags&Ducks&3dPrints.PNG)
 
 ## Context
 
