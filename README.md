@@ -58,7 +58,7 @@ The entry for the [DFO Ocean Science Division Data Products Group](https://githu
 
 Environmental factors interact with salmon throughout their entire life cycle, but also interact with each other, creating complex causal pathways that can create serious pitfalls for your analyses. We are exploring tools that help individuals and teams work through these complexities: **Ducks**, **DAGs**, and **Tangible Data**
 
-![DuckImage](/PacSalmonEnvCov/images/Duck_Image.PNG)
+![DuckImage](images/Duck_Image.PNG)
 
 **Rubber Duck Technique**
 
@@ -69,7 +69,7 @@ The [Rubber Duck Technique](https://github.com/SOLV-Code/Open-Source-Env-Cov-Pac
 * [Discussion threads](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/issues) for specific questions or comments
 * [Short notes](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/NOTES) on broader topics that can be edited directly in your browser.
 
-![DAGImage](/PacSalmonEnvCov/images/DAG_Image.PNG)
+![DAGImage](images/DAG_Image.PNG)
 
 
 **DAGs**
@@ -78,7 +78,7 @@ The [Rubber Duck Technique](https://github.com/SOLV-Code/Open-Source-Env-Cov-Pac
 
 **Tangible Data**
 
-![3dPrint_Image](/PacSalmonEnvCov/images/3dPrint_Image.PNG)
+![3dPrint_Image](images/3dPrint_Image.PNG)
 
 Even the most polished plots are still limited to page or screen. Interactive tools like Shiny Apps allow us to get closer to the data and look at it in different ways, but turning data series into tangible, physical objects can encourage even more active engagement. With the increasing accessibility of [3D printing](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/wiki/Tangible-Data:-3D-Prints) this is becoming feasible on a small scale, and you can [use R for the first step](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/blob/main/CODE/5_Create_3D_Prints.R).
 
@@ -88,19 +88,19 @@ Even the most polished plots are still limited to page or screen. Interactive to
 
 *Software stack* refers to all the programs and tools required to make an application work. The *PSEC* data system uses free open-source software and a free online platform. No software installations or logins are required to access the data and other materials. A free GitHub account is required to contribute data, post questions, or edit summary notes.
 
-![Logo_csv](/PacSalmonEnvCov/images/Logo_csv.png)
+![Logo_csv](images/Logo_csv.png)
 
 [Individual source data](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/DATA) and the [merged file with all covariates](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/OUTPUT) are stored as *csv* files which work seamlessly across operating systems and software applications. 
 
-![Logo_Markdown](/PacSalmonEnvCov/images/Logo_Markdown.png)
+![Logo_Markdown](images/Logo_Markdown.png)
 
 Background information and metadata are documented in the *README.md* for each data set. The README.md files use very basic markdown, which is automatically formatted for display by GitHub.
 
-![Logo_R](/PacSalmonEnvCov/images/Logo_R.png)
+![Logo_R](images/Logo_R.png)
 
 Data processing, merging, and exploratory analyses are all done with [R code](https://github.com/SOLV-Code/Open-Source-Env-Cov-PacSalmon/tree/main/CODE).
 
-![Logo_Github](/PacSalmonEnvCov/images/Logo_Github.png)
+![Logo_Github](images/Logo_Github.png)
 
 Tracking of updates and corrections handled automatically by GitHub. Also use GitHub discussion threads to resolve questions and GitHub Wiki pages for collaborative editing of background information.
 
